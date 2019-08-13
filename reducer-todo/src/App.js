@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState, useReducer } from 'react';
+import { initialState, reducer } from './reducers/reducer.js';
 
 import './App.css';
 
